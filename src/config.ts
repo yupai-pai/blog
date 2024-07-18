@@ -51,7 +51,7 @@ export const profileConfig: ProfileConfig = {
       icon: 'fa6-brands:weixin',       // Visit https://icones.js.org/ for icon codes
                                         // You will need to install the corresponding icon set if it's not already included
                                         // `pnpm add @iconify-json/<icon-set-name>`
-      url: 'https://raw.githubusercontent.com/yupai-pai/blogs/main/src/assets/images/weixin.jpg',
+      url: 'https://raw.githubusercontent.com/yupai-pai/blog/main/src/assets/images/weixin.jpg',
     },
     {
       name: 'Steam',
