@@ -24,7 +24,7 @@ https://github.com/saicaca/fuwari    谢谢大佬们
 
 登录github创建公开仓库
 
-![image-20240718213155361](./%E5%88%9B%E5%BB%BAfuwari%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B.assets/image-20240718213155361.png)
+![image-20240718213155361](image-20240718213155361.png)
 
 ---
 
@@ -131,7 +131,7 @@ jobs:
 
 设置为github Actions，保存
 
-![image-20240718221800156](./%E5%88%9B%E5%BB%BAfuwari%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B.assets/image-20240718221800156.png)
+![image-20240718221800156](image-20240718221800156.png)
 
 
 
@@ -145,7 +145,7 @@ jobs:
 
 查看构建情况在项目Actions，如果有报错也可以在这里看
 
-![image-20240718221944103](./%E5%88%9B%E5%BB%BAfuwari%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B.assets/image-20240718221944103.png)
+![image-20240718221944103](image-20240718221944103.png)
 
 
 
