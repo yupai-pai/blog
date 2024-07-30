@@ -71,3 +71,11 @@ export const licenseConfig: LicenseConfig = {
   name: 'CC BY-NC-SA 4.0',
   url: 'https://creativecommons.org/licenses/by-nc-sa/4.0/',
 }
+
+// vite.config.js 或 vite.config.ts
+export default {
+  // 其他配置...
+  build: {
+    assetsInclude: ['**/*.zip', '**/*.1'] // 包含.zip和.1文件
+  }
+}
