@@ -109,7 +109,7 @@ export default defineConfig({
           }
           warn(warning);
         }
-      }，
+      },
       assetsInclude: ['**/*.zip', '**/*.1']
     },
     css: {
