@@ -50,9 +50,7 @@ Docker Compose version v2.12.2
 
 ## ZIP文件
 
-[docker-compose-rocketmq.zip](https://github.com/yupai-pai/blog/blob/main/public/mdfile/docker-Rocketmq%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/docker-compose-rocketmq.zip)
-
-
+https://github.com/yupai-pai/blog/tree/main/public/docker-compose/docker-compose-rocketmq
 
 
 
