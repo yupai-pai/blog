@@ -106,11 +106,7 @@ export default defineConfig({
           // temporarily suppress this warning
           if (warning.message.includes("is dynamically imported by") && warning.message.includes("but also statically imported by")) {
             return;
-          },
-          // Ignore warnings related to .zip files
-		  if (warning.code === 'UNRESOLVED_IMPORT' && warning.importer && warning.importer.endsWith('.zip')) {
-			  return;
-		  }
+          }
           warn(warning);
         }
       }
