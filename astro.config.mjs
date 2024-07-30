@@ -109,7 +109,8 @@ export default defineConfig({
           }
           warn(warning);
         }
-      }
+      },
+      assetsInclude: ['**/*.zip'], // 包含所有 .zip 文件
     },
     css: {
       preprocessorOptions: {
