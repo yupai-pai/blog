@@ -28,9 +28,9 @@ draft: false
 
 
 
-方案1被基础团队否定，不允许这样做
+方案1被 其他团队否定，不允许这样做
 
-方案2被基础团队否定，不允许这样做
+方案2被其他团队否定，不允许这样做
 
 方案3pass
 
@@ -46,7 +46,7 @@ draft: false
 
 输入字符串存放在txt文件中上传到minio，当前版本信息增删改都需要对该文件进行变更
 
-service
+demo代码
 
 ```
     //更新minio文件
@@ -54,8 +54,8 @@ service
     public void updateMinio(String str) {
         InputStream is = new ByteArrayInputStream(str.getBytes(StandardCharsets.UTF_8));
         minioUtil.minioUploadtext(is
-        , "/apk/XXX.txt"
-        , XXXConfiguration.publicBuckets);
+        , "/test/test.txt"
+        , test.publicBuckets);
     }
 ```
 
