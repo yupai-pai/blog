@@ -54,8 +54,8 @@ service
     public void updateMinio(String str) {
         InputStream is = new ByteArrayInputStream(str.getBytes(StandardCharsets.UTF_8));
         minioUtil.minioUploadtext(is
-        , "/apk/newVersionInfo.txt"
-        , IISConfiguration.publicBuckets);
+        , "/apk/XXX.txt"
+        , XXXConfiguration.publicBuckets);
     }
 ```
 
